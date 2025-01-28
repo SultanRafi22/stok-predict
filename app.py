@@ -37,7 +37,7 @@ st.title("Prediksi Harga Saham Tesla Menggunakan Prophet")
 
 # Sidebar untuk parameter
 st.sidebar.header("Pengaturan")
-dataset_path = "https://raw.githubusercontent.com/SultanRafi22/stok_predict/main/TESLA.csv" # Path tetap untuk dataset
+dataset_path = "TESLA.csv" # Path tetap untuk dataset
 model_path = "best_prophet_model.pkl"
 
 # Slider untuk jumlah tahun prediksi ke depan
